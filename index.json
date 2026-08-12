@@ -95,17 +95,6 @@
             ]
         },
         {
-            "name": "Stable Diffusion AWS Extension",
-            "url": "https://github.com/awslabs/stable-diffusion-aws-extension.git",
-            "description": "Allow user to migrate existing workloads including ckpt merge, model training, model inferencing onto AWS",
-            "added": "2023-06-01",
-            "tags": [
-                "tab",
-                "training",
-                "online"
-            ]
-        },
-        {
             "name": "Aesthetic Gradients",
             "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients.git",
             "description": "Allows training an embedding from one or few pictures, specifically meant for applying styles. Also, allows use of these specific embeddings to generated images.",
@@ -191,16 +180,6 @@
             "url": "https://github.com/CodeExplode/stable-diffusion-webui-embedding-editor.git",
             "description": "Allows you to manually edit textual inversion embeddings using sliders.",
             "added": "2022-11-06",
-            "tags": [
-                "tab",
-                "models"
-            ]
-        },
-        {
-            "name": "embedding-inspector",
-            "url": "https://github.com/tkalayci71/embedding-inspector.git",
-            "description": "Inspect any token(a word) or Textual-Inversion embeddings and find out which embeddings are similar. You can mix, modify, or create the embeddings in seconds.",
-            "added": "2022-12-06",
             "tags": [
                 "tab",
                 "models"
@@ -539,16 +518,6 @@
             "url": "https://github.com/deforum-art/deforum-for-automatic1111-webui.git",
             "description": "The official port of Deforum, an extensive script for 2D and 3D animations, supporting keyframable sequences, dynamic math parameters (even inside the prompts), dynamic masking, depth estimation and warping.",
             "added": "2022-11-01",
-            "tags": [
-                "tab",
-                "animation"
-            ]
-        },
-        {
-            "name": "Animator",
-            "url": "https://github.com/Animator-Anon/animator_extension.git",
-            "description": "A basic img2img script that will dump frames and build a video file. Suitable for creating interesting zoom-in warping movies. This is intended to be a versatile toolset to help you automate some img2img tasks.",
-            "added": "2023-01-11",
             "tags": [
                 "tab",
                 "animation"
@@ -933,16 +902,6 @@
             ]
         },
         {
-            "name": "Stable Horde Client",
-            "url": "https://github.com/natanjunges/stable-diffusion-webui-stable-horde.git",
-            "description": "Stable Horde Client. Generate pictures using other user's PC. Useful if u have no GPU.",
-            "added": "2023-01-11",
-            "tags": [
-                "tab",
-                "online"
-            ]
-        },
-        {
             "name": "Discord Rich Presence",
             "url": "https://github.com/kabachuha/discord-rpc-for-automatic1111-webui.git",
             "description": "Provides connection to Discord RPC, showing a fancy table in the user profile.",
@@ -1005,15 +964,6 @@
             "added": "2022-11-25",
             "tags": [
                 "tab",
-                "science"
-            ]
-        },
-        {
-            "name": "DAAM",
-            "url": "https://github.com/toriato/stable-diffusion-webui-daam.git",
-            "description": "DAAM stands for Diffusion Attentive Attribution Maps. Enter the attention text (must be a string contained in the prompt) and run. An overlapping image with a heatmap for each attention will be generated along with the original image.",
-            "added": "2022-12-02",
-            "tags": [
                 "science"
             ]
         },
@@ -1462,7 +1412,7 @@
         {
             "name": "SD-CN-Animation",
             "url": "https://github.com/volotat/SD-CN-Animation.git",
-            "description": "Allows users to create video2video and text2video animations using any SD models as a backbone. Please, make sure that 'sd-webui-controlnet' extension is also installed.",
+            "description": "Notice: Incompatible with webui 1.8.   Allows users to create video2video and text2video animations using any SD models as a backbone. Please, make sure that 'sd-webui-controlnet' extension is also installed.",
             "added": "2023-05-06",
             "tags": [
                 "tab",
@@ -1501,7 +1451,7 @@
             ]
         },
         {
-            "name": "!After Detailer",
+            "name": "ADetailer",
             "url": "https://github.com/Bing-su/adetailer.git",
             "description": "Automatic detection, masking and inpainting tool for details",
             "added": "2023-05-12",
@@ -1701,15 +1651,6 @@
                 "UI related",
                 "tab"
             ]
-        },
-        {
-            "name": "Danbooru Prompt",
-            "url": "https://github.com/EnsignMK/danbooru-prompt.git",
-            "description": "Fetch tags from Danbooru images link",
-            "tags": [
-                "online"
-            ],
-            "added": "2023-06-25"
         },
         {
             "name": "Pixel art",
@@ -2019,7 +1960,8 @@
             "tags": [
                 "tab",
                 "editing",
-                "animation"
+                "animation",
+                "ads"
             ],
             "added": "2023-08-04"
         },
@@ -2278,7 +2220,8 @@
                 "UI related",
                 "prompting",
                 "editing",
-                "manipulations"
+                "manipulations",
+                "online"
             ],
             "added": "2023-10-01"
         },
@@ -2361,16 +2304,6 @@
             "added": "2023-10-17"
         },
         {
-            "name": "ReActor",
-            "url": "https://github.com/Gourieff/sd-webui-reactor.git",
-            "description": "Fast and Simple FaceSwap Extension with a lot of improvements. Read README.md, additional installation steps required",
-            "tags": [
-                "editing",
-                "manipulations"
-            ],
-            "added": "2023-10-17"
-        },
-        {
             "name": "TensorRT",
             "url": "https://github.com/NVIDIA/Stable-Diffusion-WebUI-TensorRT",
             "description": "TensorRT acceleration for Stable Diffusion on NVIDIA RTX GPUs.",
@@ -2444,7 +2377,7 @@
             "description": "Use the difference between 2 images to generate an inpaint mask. Adds a new operation mode.",
             "tags": [
                 "tab",
-                "dropdown",
+                "UI related",
                 "manipulations"
             ],
             "added": "2023-11-03"
@@ -2555,15 +2488,6 @@
             "added": "2023-11-23"
         },
         {
-            "name": "Tiny Cards",
-            "url": "https://github.com/SenshiSentou/sd-webui-tinycards.git",
-            "description": "Adds a simple zoom slider with grow-on-hover to the \"extra network\" cards (hypernetworks, TIs, checkpoints, and LoRAs)",
-            "tags": [
-                "UI related"
-            ],
-            "added": "2023-11-25"
-        },
-        {
             "name": "µ Detection Detailer",
             "url": "https://github.com/wkpark/uddetailer.git",
             "description": "µ Detection Detailer. Fork of ddetailer. Supports bbox/segment object detection, auto-mask and inpainting using mmdetection, mediapipe and ultralytics. also supports ControlNet.",
@@ -2623,10 +2547,12 @@
         {
             "name": "Replacer - fast inpaint",
             "url": "https://github.com/light-and-ray/sd-webui-replacer.git",
-            "description": "Adds a tab for fast inpaint image by detection prompt. Requires sd-webui-segment-anything",
+            "description": "Adds a tab for fast inpaint image by detection prompt. Requires sd-webui-segment-anything. It also useful for batch inpaint, and inpaint in video with AnimateDiff. Or you can just draw your own mask and use powerful hiresfix, or convenient controlnet fullres inpainting",
             "tags": [
                 "tab",
-                "editing"
+                "editing",
+                "animation",
+                "script"
             ],
             "added": "2023-12-06"
         },
@@ -2669,6 +2595,865 @@
                 "query"
             ],
             "added": "2023-12-16"
+        },
+        {
+            "name": "Deepdanbooru Tag2Folder",
+            "url": "https://github.com/Jibaku789/sd-webui-deepdanbooru-tag2folder",
+            "description": "Using this script you can move images using deepdanbooru classification",
+            "tags": [
+                "tab",
+                "query"
+            ],
+            "added": "2024-01-03"
+        },
+        {
+            "name": "sd-webui-ocr",
+            "url": "https://github.com/SpenserCai/sd-webui-ocr",
+            "description": "PaddleOCR's sd-webui extensions (pytorch implementation)",
+            "tags": [
+                "tab",
+                "query"
+            ],
+            "added": "2024-01-04"
+        },
+        {
+            "name": "Characteristic Guidance Web UI",
+            "url": "https://github.com/scraed/CharacteristicGuidanceWebUI.git",
+            "description": "New guidance method improving classifier-free guidance, providing enhanced sample quality at large CFG scale. Compatible with existing sampling methods.",
+            "tags": [
+                "dropdown",
+                "manipulations",
+                "science"
+            ],
+            "added": "2024-01-04"
+        },
+        {
+            "name": "embedding-inspector",
+            "url": "https://github.com/w-e-w/embedding-inspector.git",
+            "description": "Inspect any token(a word) or Textual-Inversion embeddings and find out which embeddings are similar. You can mix, modify, or create the embeddings in seconds.",
+            "added": "2022-12-06",
+            "tags": [
+                "tab",
+                "models"
+            ]
+        },
+        {
+            "name": "Lama cleaner as masked content",
+            "url": "https://github.com/light-and-ray/sd-webui-lama-cleaner-masked-content.git",
+            "description": "Adds new \"Masked content\" value in inpaint tab. It can be useful to remove objects.\nAlso you can use lama cleaner and some other methods with this extension with no stable diffusion in extras tab",
+            "tags": [
+                "script",
+                "editing",
+                "manipulations",
+                "extras"
+            ],
+            "added": "2024-01-14"
+        },
+        {
+            "name": "Latent Regional Helper",
+            "url": "https://github.com/safubuki/sd-webui-latent-regional-helper.git",
+            "description": "Simplify the region division settings for Latent Couple and Regional Prompter. Simply select from the drop-down list to output the setting values.",
+            "tags": [
+                "script",
+                "tab"
+            ],
+            "added": "2024-01-14"
+        },
+        {
+            "name": "Thumbnailizer",
+            "url": "https://github.com/MNeMoNiCuZ/sd-webui-thumbnailizer.git",
+            "description": "A thumbnail gallery and set management tool. Generate and switch between different thumbnail sets for your checkpoints.",
+            "tags": [
+                "script",
+                "tab",
+                "UI related"
+            ],
+            "added": "2024-01-14"
+        },
+        {
+            "name": "GPT-4 Vision Image Captioner",
+            "url": "https://github.com/SleeeepyZhou/sd-webui-GPT4V-Image-Captioner.git",
+            "description": "This extension utilizes the power of GPT-4 Vision API to provide image captioning capabilities through the Stable Diffusion Web UI. Requires a paid subscription to OpenAI.",
+            "tags": [
+                "tab",
+                "online"
+            ],
+            "added": "2024-01-14"
+        },
+        {
+            "name": "Video in Extras tab",
+            "url": "https://github.com/light-and-ray/sd-webui-video-extras-tab.git",
+            "description": "This extension is needed to process video frame by frame inside extras tab.",
+            "tags": [
+                "tab",
+                "editing",
+                "animation",
+                "extras"
+            ],
+            "added": "2024-01-23"
+        },
+        {
+            "name": "Inpaint background",
+            "url": "https://github.com/John-WL/sd-webui-inpaint-background.git",
+            "description": "Use rembg to generate an inpaint mask. Adds a new operation mode.",
+            "tags": [
+                "tab",
+                "UI related",
+                "manipulations"
+            ],
+            "added": "2024-01-23"
+        },
+        {
+            "name": "DAAM",
+            "url": "https://github.com/kousw/stable-diffusion-webui-daam.git",
+            "description": "DAAM stands for Diffusion Attentive Attribution Maps. Enter the attention text (must be a string contained in the prompt) and run. An overlapping image with a heatmap for each attention will be generated along with the original image.",
+            "added": "2022-12-02",
+            "tags": [
+                "science"
+            ]
+        },
+        {
+            "name": "ControlNet Preprocessor in extras tab",
+            "url": "https://github.com/light-and-ray/sd-webui-cn-in-extras-tab.git",
+            "description": "Adds controlnet preprocessing feature into Extras tab",
+            "tags": [
+                "script",
+                "dropdown",
+                "editing",
+                "extras"
+            ],
+            "added": "2024-02-06"
+        },
+        {
+            "name": "Stable Diffusion Database Manager",
+            "url": "https://github.com/nicholas-ooi/stable-diffusion-database-manager.git",
+            "description": "Supports generating of images individually or in batches and insert them into one or multiple databases.",
+            "tags": [
+                "script"
+            ],
+            "added": "2024-02-06"
+        },
+        {
+            "name": "RPG-DiffusionMaster",
+            "url": "https://github.com/zydxt/sd-webui-rpg-diffusionmaster",
+            "description": "Implementation of WebUI extension for RPG-DiffusionMaster. Utilizing the capabilities of the LLM model to generate Regional Prompts for better generation results.",
+            "tags": [
+                "script",
+                "dropdown",
+                "prompting",
+                "online"
+            ],
+            "added": "2024-02-07"
+        },
+        {
+            "name": "sd-webui-creaprompt",
+            "url": "https://github.com/tritant/sd-webui-creaprompt.git",
+            "description": "This extension for A1111 generates wonderful prompts randomly",
+            "tags": [
+                "UI related",
+                "prompting"
+            ],
+            "added": "2024-02-09"
+        },
+        {
+            "name": "Workflow",
+            "url": "https://github.com/Inzaniak/sd-webui-workflow",
+            "description": "Add a new panel in the img2img tab to streamline your image processing workflow.",
+            "tags": [
+                "script"
+            ],
+            "added": "2024-02-09"
+        },
+        {
+            "name": "QIC Console",
+            "url": "https://github.com/SenshiSentou/sd-webui-qic-console",
+            "description": "Adds a console tab to allow for quick testing of Python and Javascript snippets. !!! WARNING DO NOT install this extension unless you are a developer !!!",
+            "tags": [
+                "tab"
+            ],
+            "added": "2024-02-11"
+        },
+        {
+            "name": "Custom AutoLaunch",
+            "url": "https://github.com/w-e-w/sd-webui-custom-autolaunch.git",
+            "description": "AutoLaunch WebUI in non-default browser",
+            "tags": [
+                "script"
+            ],
+            "added": "2024-02-18"
+        },
+        {
+            "name": "SimpleTaggerEditor",
+            "url": "https://github.com/davidkingzyb/SimpleTaggerEditor.git",
+            "description": "edit tagger from auto generated caption one by one",
+            "tags": [
+                "tab",
+                "editing",
+                "extras"
+            ],
+            "added": "2024-03-06"
+        },
+        {
+            "name": "ReSharpen",
+            "url": "https://github.com/Haoming02/sd-webui-resharpen.git",
+            "description": "Increases/decreases the details of images",
+            "tags": [
+                "manipulations"
+            ],
+            "added": "2024-03-08"
+        },
+        {
+            "name": "Clear Screen",
+            "url": "https://github.com/Haoming02/sd-webui-clear-screen.git",
+            "description": "Adds a button 🆑 to clear the console window",
+            "tags": [
+                "script"
+            ],
+            "added": "2024-03-08"
+        },
+        {
+            "name": "SD Webui Image Comparison",
+            "url": "https://github.com/Haoming02/sd-webui-image-comparison.git",
+            "description": "Easily compare img2img results within the Webui",
+            "tags": [
+                "tab"
+            ],
+            "added": "2024-03-08"
+        },
+        {
+            "name": "SD Webui Tabs Extension",
+            "url": "https://github.com/Haoming02/sd-webui-tabs-extension.git",
+            "description": "Reorganize extension accordion layout with tabs.",
+            "tags": [
+                "UI related"
+            ],
+            "added": "2024-03-08"
+        },
+        {
+            "name": "Mosaic Outpaint",
+            "url": "https://github.com/Haoming02/sd-webui-mosaic-outpaint.git",
+            "description": "Outpainting without ControlNet",
+            "tags": [
+                "tab"
+            ],
+            "added": "2024-03-08"
+        },
+        {
+            "name": "SD Webui Boomer",
+            "url": "https://github.com/Haoming02/sd-webui-boomer.git",
+            "description": "An Extension that reverts some UI changes",
+            "tags": [
+                "UI related"
+            ],
+            "added": "2024-03-08"
+        },
+        {
+            "name": "Diffusion Color Grading",
+            "url": "https://github.com/Haoming02/sd-webui-diffusion-cg.git",
+            "description": "performs color grading based on the latent tensor value range",
+            "tags": [
+                "manipulations"
+            ],
+            "added": "2024-03-08"
+        },
+        {
+            "name": "Moar Generate Button",
+            "url": "https://github.com/Haoming02/sd-webui-moar-generate.git",
+            "description": "Adds a 2nd Generate button",
+            "tags": [
+                "UI related"
+            ],
+            "added": "2024-03-08"
+        },
+        {
+            "name": "Old Photo Restoration",
+            "url": "https://github.com/Haoming02/sd-webui-old-photo-restoration.git",
+            "description": "Bringing Old Photo Back to Life",
+            "tags": [
+                "extras"
+            ],
+            "added": "2024-03-08"
+        },
+        {
+            "name": "Mobile friendly UI tweaks",
+            "url": "https://github.com/Haoming02/sd-webui-mobile-friendly.git",
+            "description": "UI tweaks to makes the web interface easier to use on mobile (portrait)",
+            "tags": [
+                "UI related"
+            ],
+            "added": "2024-03-08"
+        },
+        {
+            "name": "Easy Tag Insert",
+            "url": "https://github.com/Haoming02/sd-webui-easy-tag-insert.git",
+            "description": "Button shortcuts for user-specified prompts",
+            "tags": [
+                "prompting"
+            ],
+            "added": "2024-03-09"
+        },
+        {
+            "name": "Token Downsampling",
+            "url": "https://github.com/feffy380/sd-webui-token-downsampling.git",
+            "description": "ToDo implements an improved version of token merging (ToMe) to speed up inference with less quality loss",
+            "tags": [
+                "script",
+                "manipulations"
+            ],
+            "added": "2024-03-10"
+        },
+        {
+            "name": "Aspect Ratio Resolutions selector-xhox",
+            "url": "https://github.com/xhoxye/sd-webui-ar_xhox.git",
+            "description": "Extension for stable-diffusion-webui adding image aspect ratio resolutions selector buttons.",
+            "tags": [
+                "UI related"
+            ],
+            "added": "2024-03-11"
+        },
+        {
+            "name": "Hires Fix Tweaks",
+            "url": "https://github.com/w-e-w/sd-webui-hires-fix-tweaks.git",
+            "description": "Add additional options and features to hires fix - CFG, Batch count, Pormpting syntax, Output directory",
+            "tags": [
+                "script",
+                "prompting",
+                "manipulations"
+            ],
+            "added": "2024-03-13"
+        },
+        {
+            "name": "Simple Manga Maker",
+            "url": "https://github.com/new-sankaku/stable-diffusion-webui-simple-manga-maker.git",
+            "description": "With simple operations, an extension that enables the creation and application of manga-style images.",
+            "tags": [
+                "tab",
+                "editing",
+                "online"
+            ],
+            "added": "2024-03-17"
+        },
+        {
+            "name": "Card Master",
+            "url": "https://github.com/SenshiSentou/sd-webui-cardmaster.git",
+            "description": "Adds powerful tools to the \"extra network\" cards (esp. LoRAs), including detail views, easy application of activation texts to the negative prompt, partial application of activation texts that contain multiple sections, and automatic prompt cleanup when removing a LoRA. This extension was previously known as tinycards. Please remove the old version if you still have it installed.",
+            "tags": [
+                "UI related"
+            ],
+            "added": "2023-11-25"
+        },
+        {
+            "name": "cli-interruption",
+            "url": "https://github.com/light-and-ray/sd-webui-cli-interruption.git",
+            "description": "Interrupt generation on SIGINT signal (Ctrl+C), instead of closing the server.",
+            "tags": [],
+            "added": "2024-03-26"
+        },
+        {
+            "name": "DemoFusion",
+            "url": "https://github.com/sebaxakerhtc/sd-webui-demofusion.git",
+            "description": "DemoFusion as a tab for WebUI. DemoFusion: Democratising High-Resolution Image Generation With No 💰",
+            "tags": [
+                "script",
+                "tab",
+                "manipulations"
+            ],
+            "added": "2024-04-03"
+        },
+        {
+            "name": "Incantations",
+            "url": "https://github.com/v0xie/sd-webui-incantations.git",
+            "description": "Implements multiple novel guidance algorithms to improve image quality, reduce concept bleeding, and enhance prompt following!",
+            "tags": [
+                "dropdown",
+                "manipulations"
+            ],
+            "added": "2024-04-03"
+        },
+        {
+            "name": "Old SD firstpasser",
+            "url": "https://github.com/light-and-ray/sd-webui-old-sd-firstpasser.git",
+            "description": "Firstpass generation with old SD model, Loras, embedding, etc ",
+            "tags": [
+                "script",
+                "manipulations"
+            ],
+            "added": "2024-04-05"
+        },
+        {
+            "name": "SD Image Editor",
+            "url": "https://github.com/sontungdo/sd-image-editor.git",
+            "description": "A fast and easy-to-use image editor for Stable Diffusion Web UI",
+            "tags": [
+                "tab",
+                "editing"
+            ],
+            "added": "2024-04-05"
+        },
+        {
+            "name": "TripoSR",
+            "url": "https://github.com/AlbedoFire/sd-webui-triposr.git",
+            "description": "TripoSR image to 3D model",
+            "tags": [
+                "tab"
+            ],
+            "added": "2024-04-24"
+        },
+        {
+            "name": "Readme browser",
+            "url": "https://github.com/light-and-ray/sd-webui-readme-browser.git",
+            "description": "This extension allows user to view readme files of extensions locally right inside sd-webui. Online will be used only if readme contains external media and links",
+            "tags": [
+                "dropdown",
+                "online",
+                "UI related"
+            ],
+            "added": "2024-04-26"
+        },
+        {
+            "name": "D2 Prompt Selector",
+            "url": "https://github.com/da2el-ai/sd-d2-prompt-selector.git",
+            "description": "Insert prompts or random prompts on button click",
+            "tags": [
+                "prompting"
+            ],
+            "added": "2024-05-04"
+        },
+        {
+            "name": "Untitled Merger",
+            "url": "https://github.com/silveroxides/sd-webui-untitledmerger.git",
+            "description": "Powerful merger that have very fast merge times and some novel merge modes.",
+            "tags": [
+                "tab",
+                "models"
+            ],
+            "added": "2024-05-11"
+        },
+        {
+            "name": "Hardware Info in metadata",
+            "url": "https://github.com/light-and-ray/sd-webui-hardware-info-in-metadata.git",
+            "description": "Adds hardware info (gpu name, vram, cpu name, ram) and taken time into generated images' metadata",
+            "tags": [
+                "script"
+            ],
+            "added": "2024-05-18"
+        },
+        {
+            "name": "PNGINFO Beautify",
+            "url": "https://github.com/bluelovers/sd-webui-pnginfo-beautify.git",
+            "description": "Stable Diffusion PNGINFO Beautify extension",
+            "tags": [
+                "UI related",
+                "prompting"
+            ],
+            "added": "2024-05-19"
+        },
+        {
+            "name": "InputAccordion Highlight",
+            "url": "https://github.com/w-e-w/sd-webui-input-accordion-highlight.git",
+            "description": "Highlight InputAccordion when enabled",
+            "tags": [
+                "UI related"
+            ],
+            "added": "2024-05-20"
+        },
+        {
+            "name": "Metadata Utils",
+            "url": "https://github.com/Tzigo/metadata_utils.git",
+            "description": "metadata utils can read/write metadata from/to .safetensor files",
+            "tags": [
+                "tab",
+                "models"
+            ],
+            "added": "2024-06-07"
+        },
+        {
+            "name": "webui-foooxus-prompt-expansion",
+            "url": "https://github.com/power88/webui-fooocus-prompt-expansion.git",
+            "description": "a simple wrapper of fooocus prompt expansion engine in stable-diffusion-webui",
+            "tags": [
+                "prompting"
+            ],
+            "added": "2024-06-09"
+        },
+        {
+            "name": "Bilingual Localization Refactored Fork",
+            "url": "https://github.com/bluelovers/sd-webui-bilingual-localization.git",
+            "description": "Refactored from journey-ad Bilingual translation, rewritten in TypeScript for improved bug fixes and performance enhancements.",
+            "tags": [
+                "UI related"
+            ],
+            "added": "2024-06-11"
+        },
+        {
+            "name": "SD-PPP",
+            "url": "https://github.com/zombieyang/sd-ppp.git",
+            "description": "getting/sending picture from/to Photoshop with a simple connection. Make Photoshop become the workspace of your sd-webui",
+            "tags": [
+                "script"
+            ],
+            "added": "2024-06-15"
+        },
+        {
+            "name": "ControlNet preprocessor: Segment Anything",
+            "url": "https://github.com/light-and-ray/sd-webui-cn-sam-preprocessor.git",
+            "description": "Segment Anything preprocessor for ControlNet (requires sd-webui-segment-anything)",
+            "tags": [
+                "manipulations"
+            ],
+            "added": "2024-06-15"
+        },
+        {
+            "name": "Aspect Ratio and Resolution Buttons (ar-plusplus)",
+            "url": "https://github.com/altoiddealer/--sd-webui-ar-plusplus.git",
+            "description": "Fork of Aspect Ratio selector plus with optimal resolution calculation and rounding",
+            "tags": [
+                "UI related"
+            ],
+            "added": "2024-06-23"
+        },
+        {
+            "name": "ScramblePrompts [m9]",
+            "url": "https://github.com/MarcusNyne/sd-scramble-prompts-m9.git",
+            "description": "Creates prompt variations during image generation by reordering prompts, removing prompts, and modifying prompt weights.  Helps to fine-tune your prompts.  Details in README.md",
+            "tags": [
+                "prompting"
+            ],
+            "added": "2024-07-01"
+        },
+        {
+            "name": "TweakWeights [m9]",
+            "url": "https://github.com/MarcusNyne/sd-tweak-weights-m9.git",
+            "description": "Creates prompt variations during image generation by modifying prompt weights matching specified keywords.  Helps to fine-tune your prompts.  Details in README.md",
+            "tags": [
+                "prompting"
+            ],
+            "added": "2024-07-01"
+        },
+        {
+            "name": "Prevent interruption",
+            "url": "https://github.com/light-and-ray/sd-webui-prevent-interruption.git",
+            "description": "A switch in page footer to prevent user from accidental interrupting",
+            "tags": [
+                "UI related"
+            ],
+            "added": "2024-07-01"
+        },
+        {
+            "name": "Waifu2x Upscaler",
+            "url": "https://github.com/light-and-ray/sd-webui-waifu2x-upscaler.git",
+            "description": "A fast open-source NN upscaler from 2015",
+            "tags": [
+                "editing",
+                "extras"
+            ],
+            "added": "2024-07-01"
+        },
+        {
+            "name": "sd-webui-udav2",
+            "url": "https://github.com/MackinationsAi/sd-webui-udav2.git",
+            "description": "Integration of the Upgraded-Depth-Anything-V2 - UDAV2 models & UI into an a1111 extension.",
+            "tags": [
+                "tab",
+                "animation"
+            ],
+            "added": "2024-07-01"
+        },
+        {
+            "name": "Topaz Photo AI integration",
+            "url": "https://github.com/light-and-ray/sd-webui-topaz-photo-ai-integration.git",
+            "description": "Integrates upscaling feature from Topaz's Photo AI paid software, so you can use it inside hires fix, upscaler_for_img2img or in extras tab. Also there is a script for Sharpen and other features inside extras tab",
+            "tags": [
+                "editing",
+                "script",
+                "extras"
+            ],
+            "added": "2024-07-01"
+        },
+        {
+            "name": "Detail Daemon",
+            "url": "https://github.com/muerrilla/sd-webui-detail-daemon.git",
+            "description": "Control amount of detail/smoothness during generation by adjusting the sigmas schedule",
+            "tags": [
+                "manipulations"
+            ],
+            "added": "2024-07-02"
+        },
+        {
+            "name": "Yandere Inpainting as masked content",
+            "url": "https://github.com/light-and-ray/sd-webui-yandere-inpaint-masked-content.git",
+            "description": "Integrates Yandere Inpainting ESRGAN model into Inpaint tab as masked content method. Fits for removing small objects or watermarks in anime art",
+            "tags": [
+                "UI related",
+                "manipulations"
+            ],
+            "added": "2024-07-02"
+        },
+        {
+            "name": "Multi-Prompt Manager",
+            "url": "https://github.com/camdenFletcher03/sd-webui-Multi-Prompt-Manager.git",
+            "description": "The Multi-Prompt Manager Extension for stable-diffusion-webui allows easy management of multiple prompts. Create, save, edit, and delete prompts, and quickly switch between them without having to retype them manually.",
+            "tags": [
+                "prompting"
+            ],
+            "added": "2024-07-11"
+        },
+        {
+            "name": "Resynthesizer as masked content",
+            "url": "https://github.com/light-and-ray/sd-webui-resynthesizer-masked-content.git",
+            "description": "Integrates Resynthesizer old content-aware fill algorithm into Inpaint tab as masked content method",
+            "tags": [
+                "UI related",
+                "manipulations"
+            ],
+            "added": "2024-07-17"
+        },
+        {
+            "name": "Toggle light dark",
+            "url": "https://github.com/light-and-ray/sd-webui-toggle-dark-light.git",
+            "description": "A little button in top-right which toggles UI theme",
+            "tags": [
+                "UI related"
+            ],
+            "added": "2024-07-17"
+        },
+        {
+            "name": "Manga Inpainting",
+            "url": "https://github.com/light-and-ray/sd-webui-manga-inpainting.git",
+            "description": "A network for removing something in manga. Requires controlnet and lama-cleaner-masked-content",
+            "tags": [
+                "manipulations",
+                "extras"
+            ],
+            "added": "2024-07-17"
+        },
+        {
+            "name": "sd-queue",
+            "url": "https://github.com/nmygle/sd-queue.git",
+            "description": "It is an extension that provides an API primarily for queuing tasks, using a simple task manager created with Pure Python's deque and threading.",
+            "tags": [
+                "script"
+            ],
+            "added": "2024-07-21"
+        },
+        {
+            "name": "chara-searcher",
+            "url": "https://github.com/NON906/chara-searcher.git",
+            "description": "This is a extension for 'character images search' from image and tags.\n- Extract characters from multiple images or videos (background is automatically removed).\n- You can search the extracted character images by image or tags.\n- Search results can be exported and used as is for learning Stable Diffusion's Lora, etc.",
+            "tags": [
+                "tab",
+                "editing",
+                "query"
+            ],
+            "added": "2024-07-22"
+        },
+        {
+            "name": "AMD FSR 1.0 integration",
+            "url": "https://github.com/AndreyRGW/sd-webui-fsr-integration.git",
+            "description": "Integrates upscaling feature from AMD FSR, so you can use it inside hires fix, upscaler_for_img2img or in extras tab.",
+            "tags": [
+                "editing",
+                "script",
+                "extras"
+            ],
+            "added": "2024-07-22"
+        },
+        {
+            "name": "stupid-nsfw-card-blur-a1111",
+            "url": "https://github.com/CurtisDS/stupid-nsfw-card-blur-a1111.git",
+            "description": "Blurs or hides card thumbnails if the path to the preview thumbnail contains the string 'nsfw'",
+            "tags": [
+                "UI related"
+            ],
+            "added": "2024-07-24"
+        },
+        {
+            "name": "extra-network-side-panel-for-a1111",
+            "url": "https://github.com/CurtisDS/extra-network-side-panel-for-a1111.git",
+            "description": "Adds a toggle to move the extra network cards to the side of the screen ",
+            "tags": [
+                "UI related"
+            ],
+            "added": "2024-07-25"
+        },
+        {
+            "name": "Face manipulations - extras",
+            "url": "https://github.com/light-and-ray/sd-webui-face-manipulation-extras.git",
+            "description": "Adds zerodim model zerodim-ffhq-x256 model into Extras tab. Changing of age, gender, ethnicity, hair, facial hair, glasses",
+            "tags": [
+                "manipulations",
+                "editing"
+            ],
+            "added": "2024-07-29"
+        },
+        {
+            "name": "Stable Diffusion PNGINFO Injection extension",
+            "url": "https://github.com/bluelovers/sd-webui-pnginfo-injection.git",
+            "description": "This extension can add more PNGINFO fields to the PNG files generated by Stable Diffusion WebUI, such as the hash values of Civitai resources.",
+            "tags": [
+                "script",
+                "UI related"
+            ],
+            "added": "2024-08-07"
+        },
+        {
+            "name": "sd-webui-decadetw-auto-prompt-llm",
+            "url": "https://github.com/xlinx/sd-webui-decadetw-auto-prompt-llm.git",
+            "description": "Auto Prompt with LLM. Read README.md, additional installation steps required",
+            "tags": [
+                "prompting"
+            ],
+            "added": "2024-08-09"
+        },
+        {
+            "name": "GeekyRemB",
+            "url": "https://github.com/GeekyGhost/Automatic1111-Geeky-Remb.git",
+            "description": "Advanced Background Removal for Automatic1111 Web UI. Offers multiple AI models, flexible background options, chroma key support, alpha matting, and more for professional-quality image editing.",
+            "tags": [
+                "editing",
+                "tab"
+            ],
+            "added": "2024-08-19"
+        },
+        {
+            "name": "img2img-hires-fix",
+            "url": "https://github.com/Amadeus-AI/img2img-hires-fix.git",
+            "description": "Hires-Fix upscale right after the img2img process, using its latent.",
+            "tags": [
+                "script",
+                "manipulations"
+            ],
+            "added": "2024-09-17"
+        },
+        {
+            "name": "Diffusion Cocktail (Ditail)",
+            "url": "https://github.com/MAPS-research/sd-webui-ditail.git",
+            "description": "'Diffusion Cocktail' (Ditail) offers a training-free method for novel image generations and fine-grained manipulations of content/style, enabling flexible integrations of existing pre-trained Diffusion models and LoRAs.",
+            "tags": [
+                "manipulations"
+            ],
+            "added": "2024-09-17"
+        },
+        {
+            "name": "sd-webui-live-portrait",
+            "url": "https://github.com/dimitribarbot/sd-webui-live-portrait.git",
+            "description": "This extension integrates LivePortrait into WebUI enabling efficient portrait animation with stitching and retargeting control.",
+            "tags": [
+                "script",
+                "tab",
+                "editing"
+            ],
+            "added": "2024-09-17"
+        },
+        {
+            "name": "TIPO/DanTagGen Extension",
+            "url": "https://github.com/KohakuBlueleaf/z-tipo-extension",
+            "description": "TIPO/DanTagGen extension for upsampling the input prompt.",
+            "tags": [
+                "script",
+                "dropdown",
+                "prompting"
+            ],
+            "added": "2024-09-29"
+        },
+        {
+            "name": "SD Web UI UX",
+            "url": "https://github.com/anapnoe/sd-webui-ux.git",
+            "description": "A bespoke, highly adaptable, blazing fast user interface that offers unmatched optimization and flexibility.",
+            "tags": [
+                "tab",
+                "UI related"
+            ],
+            "added": "2024-10-23"
+        },
+        {
+            "name": "Stable Horde Client",
+            "url": "https://github.com/w-e-w/stable-diffusion-webui-stable-horde.git",
+            "description": "Stable Horde Client. Generate pictures using other user's PC. Useful if u have no GPU.",
+            "added": "2023-01-11",
+            "tags": [
+                "tab",
+                "online"
+            ]
+        },
+        {
+            "name": "sd-webui-quickrecents",
+            "url": "https://github.com/MINENEMA/sd-webui-quickrecents.git",
+            "description": "View recent generations and get their generation parameters straight from the txt2img/img2img tabs",
+            "tags": [
+                "UI related"
+            ],
+            "added": "2024-10-24"
+        },
+        {
+            "name": "LoRA Keywords Finder",
+            "url": "https://github.com/Avaray/lora-keywords-finder.git",
+            "description": "Find trained keywords for LoRA models using CivitAI API",
+            "tags": [
+                "prompting",
+                "online"
+            ],
+            "added": "2024-11-02"
+        },
+        {
+            "name": "Gelbooru Prompt Randomizer",
+            "url": "https://github.com/RED1cat/Gelbooru-Prompt-Randomizer.git",
+            "description": "Finds a random post from Gelbooru and takes tags from it according to filters.",
+            "tags": [
+                "prompting",
+                "online"
+            ],
+            "added": "2024-12-21"
+        },
+        {
+            "name": "stable-diffusion-webui-chat-gpt-prompts",
+            "url": "https://github.com/ilian6806/stable-diffusion-webui-chat-gpt-prompts",
+            "description": "Generates SD prompt variations with ChatGPT and DeepL. Requires an OpenAI API key (paid subscription) and optionally a DeepL API key.",
+            "tags": [
+                "prompting",
+                "online"
+            ],
+            "added": "2024-12-22"
+        },
+        {
+            "name": "SD Hub",
+            "url": "https://github.com/gutris1/sd-hub.git",
+            "description": "An extension to download files individually or in batch from various sources, upload to Hugging Face model repositories, and archive/extract files in multiple formats.",
+            "tags": [
+                "script",
+                "tab",
+                "online"
+            ],
+            "added": "2024-12-25"
+        },
+        {
+            "name": "SD Simple Dimension Preset",
+            "url": "https://github.com/gutris1/sd-simple-dimension-preset.git",
+            "description": "a simple button to change width and height values under txt2img and img2img tab",
+            "tags": [
+                "UI related"
+            ],
+            "added": "2024-12-25"
+        },
+        {
+            "name": "Style Organizer",
+            "url": "https://github.com/KazeKaze93/sd-webui-style-organizer.git",
+            "description": "A grid/gallery-based style selector extension for Stable Diffusion WebUI Forge.",
+            "tags": [
+                "UI related"
+            ],
+            "added": "2026-04-03"
+        },
+        {
+            "name": "VAE Tools (in extras tab)",
+            "url": "https://github.com/light-and-ray/sd-webui-vae-tools.git",
+            "description": "You can encode, decode images using VAE models inside Extras tab",
+            "tags": [
+                "script",
+                "editing",
+                "extras"
+            ],
+            "added": "2026-04-03"
         }
     ]
 }
